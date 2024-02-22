@@ -1,0 +1,8 @@
+[Unit]
+Description=Saludo y fecha actual infinitos
+
+[Service]
+ExecStart=/home/josep/USAC/7mo_Semestre/Sistemas_operativos_1/Actividades/so1_actividades_202111478/actividad3/saludo.sh
+
+[Install]
+WantedBy=multi-user.target
